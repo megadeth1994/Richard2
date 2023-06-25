@@ -1,0 +1,120 @@
+.footer {
+    background: var(--bg-banner);
+    height: 242px;
+}
+
+.footer__wrap {
+    padding: 29px 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__nav-list a {
+    font-family: var(--GCR);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--lightblack);
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        background: var(--bg-banner);
+        height: 172px;
+    }
+
+    .footer__wrap {
+        padding: 29px 0 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer__logo {
+        max-width: 105px;
+        max-height: 85px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer__nav-list a {
+        font-family: var(--GCR);
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 20px;
+        color: var(--lightblack);
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footer {
+        background: var(--bg-banner);
+        height: 172px;
+    }
+
+    .footer__wrap {
+        padding: 60px 0 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer__logo {
+        max-width: 85px;
+        max-height: 65px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer__nav {
+        max-width: 250px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .footer__nav-list a {
+        font-family: var(--GCR);
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 20px;
+        color: var(--lightblack);
+    }
+}

@@ -1,0 +1,239 @@
+.get-updates {
+    background: var(--bg-banner);
+    height: 463px;
+}
+
+.get-updates__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.get-updates__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.get-updates__desc-h {
+    font-family: var(--GCR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--white);
+}
+
+.get-updates__desc-p {
+    font-family: var(--GCR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--lightblack);
+}
+
+.get-updates-form {
+    display: flex;
+    align-items: center;
+}
+
+.get-updates-form-input {
+    /* Не знаю как изменить размер width */
+    padding: 22px 155px 22px 33px;
+    font-family: var(--GCR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    border: none;
+    outline: none;
+    color: var(--black-1c);
+    background: var(--white);
+}
+
+.get-updates-form-btn {
+    /* Почему у меня не работает кнопка  */
+    max-width: 154px;
+    width: 100%;
+    padding: 22px 23px;
+    font-family: var(--GCR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--black-1c);
+    background: var( --pk);
+    border: none;
+    outline: none;
+    transform: 0.3s;
+}
+
+.get-updates-form-btn:hover {
+    /* Почему у меня не работает кнопка  */
+    /* Почему при наведении текст куда-то уходит? */
+    background: transparent;
+    color: var(--white);
+    border: 3px solid var(--btn-frame);
+}
+
+@media screen and (max-width:768px) {
+    .get-updates {
+        background: var(--bg-banner);
+        height: 363px;
+    }
+    
+    .get-updates__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .get-updates__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+    }
+    
+    .get-updates__desc-h {
+        font-family: var(--GCR);
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 43px;
+        color: var(--white);
+    }
+    
+    .get-updates__desc-p {
+        font-family: var(--GCR);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        color: var(--lightblack);
+    }
+    
+    .get-updates-form {
+        display: flex;
+        align-items: center;
+    }
+    
+    .get-updates-form-input {
+        /* Не знаю как изменить размер width */
+        padding: 16px 100px 16px 26px;
+        font-family: var(--GCR);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19px;
+        border: none;
+        outline: none;
+        color: var(--black-1c);
+        background: var(--white);
+    }
+    
+    .get-updates-form-btn {
+        /* Почему у меня не работает кнопка  */
+        max-width: 154px;
+        width: 100%;
+        padding: 16px 22px;
+        font-family: var(--GCR);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        color: var(--black-1c);
+        background: var( --pk);
+        border: none;
+        outline: none;
+        transform: 0.3s;
+    }
+    
+    .get-updates-form-btn:hover {
+        /* Почему у меня не работает кнопка  */
+        /* Почему при наведении текст куда-то уходит? */
+        background: transparent;
+        color: var(--white);
+        border: 3px solid var(--btn-frame);
+    }
+}
+
+@media screen and (max-width:320px) {
+    .get-updates {
+        background: var(--bg-banner);
+        height: 220px;
+    }
+    
+    .get-updates__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .get-updates__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+    }
+    
+    .get-updates__desc-h {
+        max-width: 180px;
+        text-align: center;
+        font-family: var(--GCR);
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 35px;
+        color: var(--white);
+    }
+    
+    .get-updates__desc-p {
+        font-family: var(--GCR);
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13px;
+        color: var(--lightblack);
+    }
+    
+    .get-updates-form {
+        display: flex;
+        align-items: center;
+    }
+    
+    .get-updates-form-input {
+        /* Не знаю как изменить размер width */
+        padding: 10px 50px 10px 20px;
+        font-family: var(--GCR);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19px;
+        border: none;
+        outline: none;
+        color: var(--black-1c);
+        background: var(--white);
+    }
+    
+    .get-updates-form-btn {
+        /* Почему у меня не работает кнопка  */
+        max-width: 154px;
+        width: 100%;
+        padding: 10px 10px;
+        font-family: var(--GCR);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19px;
+        color: var(--black-1c);
+        background: var( --pk);
+        border: none;
+        outline: none;
+        transform: 0.3s;
+    }
+    
+    .get-updates-form-btn:hover {
+        /* Почему у меня не работает кнопка  */
+        /* Почему при наведении текст куда-то уходит? */
+        background: transparent;
+        color: var(--white);
+        border: 3px solid var(--btn-frame);
+    }
+}

@@ -1,0 +1,212 @@
+.header {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
+        linear-gradient(0deg, #CF0063, #CF0063);
+    height: 800px;
+}
+
+.header__wrap {
+    padding-bottom: 20px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    max-width: 120px;
+    min-height: 43px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.list__item a {
+    font-family: var(--GCR);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--white);
+}
+
+.header__desc {
+    position: relative;
+    max-height: 680px;
+    display: flex;
+    align-items: center;
+}
+
+.header__wrap-l {
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__phone {
+    transform: translateX(-145px);
+}
+
+.header__wrap-h {
+    margin-bottom: 10px;
+    font-family: var(--GCR);
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+    color: var(--white);
+}
+
+.header__wrap-p {
+    margin-bottom: 25px;
+    max-width: 677px;
+    width: 100%;
+    font-family: var(--GCR);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    color: var(--white);
+}
+
+.header__wrap-button {
+    padding: 20px 40px;
+    font-family: var(--GCR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--white);
+    background: var(--pk);
+    border: none;
+    border-radius: 3px;
+    transform: 0.3s;
+}
+
+.header__wrap-button:hover {
+    /* Почему при наведении текст куда-то уходит? */
+    background: transparent;
+    border: 3px solid var(--btn-frame);
+}
+
+.arrow {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .header {
+        height: 740px;
+    }
+
+    .header__wrap {
+        padding-top: 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header__desc {
+        padding-top: 60px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header__wrap-l {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__wrap-h {
+        font-size: 55px;
+        line-height: 56px;
+        text-align: center;
+    }
+
+    .header__wrap-p {
+        max-width: 380px;
+        width: 100%;
+        font-size: 13px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .header__wrap-button {
+        padding: 15px 35px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .header__phone {
+        max-width: 380px;
+        max-height: 400px;
+        transform: translateX(8px);
+    }
+
+    .arrow {
+        max-width: 6px;
+        max-height: 34px;
+        width: 100%;
+        height: 100%;
+        bottom: 50px;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header {
+        height: 540px;
+    }
+
+    .header__wrap {
+        padding-top: 25px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header__desc {
+        padding-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__nav {
+        gap: 15px;
+    }
+
+    .header__wrap-h {
+        font-size: 35px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .header__wrap-p {
+        max-width: 380px;
+        width: 100%;
+        font-size: 11px;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    .header__wrap-button {
+        padding: 9px 25px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .header__phone {
+        max-width: 210px;
+        max-height: 240px;
+        width: 100%;
+        height: 100%;
+        transform: translateX(5px);
+    }
+
+    .arrow {
+        max-width: 4px;
+        max-height: 24px;
+        width: 100%;
+        height: 100%;
+        bottom: 110px;
+        left: 50%;
+    }
+}

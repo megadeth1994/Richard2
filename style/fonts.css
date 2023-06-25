@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GCR';
+    src: url(../fonts/Gothic/GothicA1-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'GCB';
+    src: url(../fonts/Gothic/GothicA1-Bold.ttf) format('truetupe');
+}

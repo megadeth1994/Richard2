@@ -1,0 +1,137 @@
+.ready {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
+        linear-gradient(0deg, #CF0063, #CF0063);
+    height: 473px;
+}
+
+.ready__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ready__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.ready__h {
+    font-family: var(--GCR);
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--white);
+}
+
+.ready__button {
+    display: flex;
+    gap: 10px;
+}
+
+.ready__btn {
+    padding: 20px 40px;
+    font-family: var(--GCR);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--white);
+    background: var(--pk);
+    border: none;
+    border-radius: 3px;
+    transform: 0.3s;    
+}
+
+.ready__btn:hover {
+    /* Почему при наведении текст куда-то уходит? */
+    background: transparent;
+    border: 3px solid var(--btn-frame);
+}
+
+@media screen and (max-width:768px) {
+    .ready {
+        background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
+            linear-gradient(0deg, #CF0063, #CF0063);
+        height: 373px;
+    }
+    
+    .ready__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ready__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .ready__h {
+        font-size: 33px;
+        line-height: 43px;
+    }
+    
+    .ready__button {
+        display: flex;
+        gap: 9px;
+    }
+    
+    .ready__btn {
+        padding: 13px 33px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .ready__btn:hover {
+        /* Почему при наведении текст куда-то уходит? */
+        background: transparent;
+        border: 3px solid var(--btn-frame);
+    }
+}
+
+@media screen and (max-width:320px) {
+    .ready {
+        background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
+            linear-gradient(0deg, #CF0063, #CF0063);
+        height: 220px;
+    }
+    
+    .ready__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ready__desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .ready__h {
+        font-size: 27px;
+        line-height: 37px;
+        text-align: center;
+    }
+    
+    .ready__button {
+        display: flex;
+        gap: 9px;
+    }
+    
+    .ready__btn {
+        padding: 8px 20px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    
+    .ready__btn:hover {
+        /* Почему при наведении текст куда-то уходит? */
+        background: transparent;
+        border: 3px solid var(--btn-frame);
+    }
+}
